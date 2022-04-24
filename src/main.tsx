@@ -6,6 +6,7 @@ import ScrollObserver from './utils/scroll-observer'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    //@ts-ignore
   <ScrollObserver>
     <App />
   </ScrollObserver>
