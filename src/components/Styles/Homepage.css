@@ -1,0 +1,14 @@
+div.bg_image{
+	background-image: url("../../Assests/bg-Image.jpg");
+	background-repeat: no-repeat ;
+	/* background-attachment: fixed; */
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	
+	background-position: center center;
+}
+
+div.homeTitle h1{
+	font-family: "Druk Wide Bold";
+}
