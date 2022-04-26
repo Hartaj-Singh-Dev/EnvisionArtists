@@ -15,13 +15,14 @@ const Homepage: React.FC = () => {
 	}
   return (
 	  <>
-	 <section  style={{ transform: `translateY(-${progress * 25 }vh)`}} ref={refCont} className=" sticky top-0 -z-10 h-screen w-full flex flex-col sm:flex-row bg-black">
+	 <section  style={{ transform: `translateY(-${progress * 20 }vh)`}} ref={refCont} className=" sticky top-0 -z-10 h-screen w-full flex flex-col sm:flex-row bg-black">
 		 <div className="absolute top-10 bg-white opacity-60 h-[0.9px] w-full "></div>
 
 		<div className="hidden sm:flex sm:h-full sm:w-1/2 bg-[#070707]">
 		</div>
 	<div className="absolute top-1/4 left-4 homeTitle">
 	<h1 className="text-white text-5xl">ENVISION</h1>
+	<h2 className="text-[#E40031] text-3xl"> ARTISTS </h2>
 	</div>	
 		<div className="h-full w-full sm:w-1/2 flex ">
 			{/* <div className="bg_image flex-grow-0 flex-shrink-0"></div> */}

@@ -9,6 +9,6 @@ div.bg_image{
 	background-position: center center;
 }
 
-div.homeTitle h1{
+div.homeTitle h1 , h2{
 	font-family: "Druk Wide Bold";
 }
