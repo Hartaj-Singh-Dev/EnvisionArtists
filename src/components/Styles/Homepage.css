@@ -12,3 +12,7 @@ div.bg_image{
 div.homeTitle h1 , h2{
 	font-family: "Druk Wide Bold";
 }
+
+i.arrowIcon{
+	color: #ffff;
+}
