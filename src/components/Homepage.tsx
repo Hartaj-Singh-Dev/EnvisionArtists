@@ -20,11 +20,11 @@ const Homepage: React.FC = () => {
 
 		<div className="hidden sm:flex sm:h-full sm:w-1/2 bg-[#070707]">
 		</div>
-	<div className="absolute top-1/4 left-4 homeTitle">
-	<h1 className="text-white text-5xl">ENVISION</h1>
-	<h2 className="text-[#E40031] text-3xl"> ARTISTS </h2>
+	<div className="absolute top-1/4 left-4 sm:left-16 homeTitle">
+	<h1 className="text-white text-5xl sm:text-[5rem] md:text-[7rem]">ENVISION</h1>
+	<h2 className="text-[#E40031] sm:mt-6 text-4xl sm:text-[2.7rem] md:text-[4rem]"> ARTISTS </h2>
 	</div>	
-		<div className="h-full w-full sm:w-1/2 flex ">
+		<div className="h-full max-w-screen w-full sm:w-1/2 flex ">
 			{/* <div className="bg_image flex-grow-0 flex-shrink-0"></div> */}
 			<img className="bg_image object-cover w-full h-auto" src={BgImage} alt="" />
 		</div>
