@@ -30,7 +30,8 @@ const Homepage: React.FC = () => {
 			<img className="bg_image object-cover w-full h-auto" src={BgImage} alt="" />
 		</div>
 		<div className="absolute bottom-2 left-[45%] sm:left-[47.8%]">
-			<img src={DownArrow} className="rotate-[270deg]" width={130/ 3}  height={65/3} alt="" />
+			<img src={DownArrow} className="rotate-[270deg]" width={120/ 3}  height={55/3} alt="" />
+
 		</div>
 	 </section>
 	 </>

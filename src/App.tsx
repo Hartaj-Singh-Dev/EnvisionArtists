@@ -10,8 +10,8 @@ function App() {
   return (
     <>
         <Homepage/> 
-        <About/>
         <Skills/>
+        <About/>
     </>
   )
 }
